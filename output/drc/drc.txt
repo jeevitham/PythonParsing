@@ -1,0 +1,3 @@
+drc -top_cell JEEEE -gds gds  -deck  /A/B/C/tsmc/45nm/6ml/drc/tapeout.drc
+drc -top_cell Venky -gds gds  -deck  /A/B/C/tsmc/45nm/6ml/drc/tapeout.drc
+drc -top_cell TOP -gds gds  -deck  /A/B/C/tsmc/45nm/6ml/drc/tapeout.drc

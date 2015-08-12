@@ -1,0 +1,6 @@
+lef: /A/B/C/tsmc/45nm/7ml/physical/tech.lef /A/B/C/tsmc/45nm/7ml/physical/macro.lef
+lib: /D/E/F/tsmc/45nm/7ml/fast/corner.lib /D/E/F/tsmc/45nm/7ml/fast/stdcell.lib /D/E/F/tsmc/45nm/7ml/fast/io.lib
+sdc: /D/E/F/tsmc/45nm/7ml/fast/timing/tapeout.sdc
+drc: /A/B/C/tsmc/45nm/7ml/drc/tapeout.drc
+lvs: /A/B/C/tsmc/45nm/7ml/lvs/tapeout.lvs
+synthesis: /B/G/H/tsmc/7ml/45nm/syn.teh

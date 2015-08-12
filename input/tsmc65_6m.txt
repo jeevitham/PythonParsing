@@ -1,0 +1,6 @@
+lef: /A/B/C/tsmc/65nm/physical/tech.lef /A/B/C/tsmc/65nm/physical/macro.lef
+lib: /D/E/F/tsmc/65nm/fast/corner.lib /D/E/F/tsmc/65nm/fast/stdcell.lib /D/E/F/tsmc/65nm/fast/io.lib
+sdc: /D/E/F/tsmc/65nm/fast/timing/tapeout.sdc
+drc: /A/B/C/tsmc/65nm/drc/tapeout.drc
+lvs: /A/B/C/tsmc/65nm/lvs/tapeout.lvs
+synthesis: /B/G/H/tsmc/65nm/syn.teh

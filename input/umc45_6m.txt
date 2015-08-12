@@ -1,0 +1,6 @@
+lef: /A/B/C/umc/45nm/physical/tech.lef /A/B/C/umc/45nm/physical/macro.lef
+lib: /D/E/F/umc/45nm/fast/corner.lib /D/E/F/umc/45nm/fast/stdcell.lib /D/E/F/umc/45nm/fast/io.lib
+sdc: /D/E/F/umc/45nm/fast/timing/tapeout.sdc
+drc: /A/B/C/umc/45nm/drc/tapeout.drc
+lvs: /A/B/C/umc/45nm/lvs/tapeout.lvs
+synthesis: /B/G/H/umc/45nm/syn.tec

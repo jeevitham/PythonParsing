@@ -1,0 +1,1 @@
+lvs -top  Bla -gds gds -sch sch -deck  /A/B/C/tsmc/45nm/6ml/lvs/tapeout.lvs
