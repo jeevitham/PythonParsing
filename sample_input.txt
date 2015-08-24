@@ -1,0 +1,10 @@
+1)sample user input:
+
+-t umc45 -p 6m -g layout_full_path -s sch_full_path -n top_cell_name -r RTL_verilog_full_path  -d DEF_full_path -v 5
+
+
+2)technology types are inside input folder named in the format technology_process_txt.
+eg.tsmc65_6m.txt
+
+
+
