@@ -1,1 +1,1 @@
-lvs -top  Bla -gds gds -sch sch -deck  /A/B/C/tsmc/45nm/6ml/lvs/tapeout.lvs
+lvs -top  top_cell_name -gds gds -sch sch_full_path -deck  /A/B/C/umc/45nm/lvs/tapeout.lvs

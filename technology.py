@@ -13,7 +13,7 @@ class Technology :
     def generateFile(self, output,path):
         if not os.path.exists(os.path.dirname(path)):
             os.makedirs(os.path.dirname(path))
-        with open(path , 'a+') as f:
+        with open(path , 'w+') as f:
             f.write(output)
 
     def generatePnR(self):
@@ -27,17 +27,14 @@ class Technology :
                 "set rda_IASICt(ui_gen_footprint) {1} \n" \
                 "set rda_IASICt(ui_leffile) " + self.lef + "\n"
 
-        print (output)
         self.generateFile(output,"output/pnr/dtmf.conf")
 
     def generateDRC(self,top, gds):
         output= "drc -top_cell " + top + " -gds " + gds + "  -deck " + self.drc +"\n"
-        print (output)
         self.generateFile(output,"output/drc/drc.txt")
 
     def generateLVS(self,top, gds,sch):
         output= "lvs -top  "+ top + " -gds "+ gds + " -sch "+ sch  + " -deck " + self.lvs + "\n"
-        print (output)
         self.generateFile(output,"output/lvs/lvs.txt")
 
     def generateLogicSynthesis(self):
@@ -50,13 +47,12 @@ class Technology :
                 "plot -output mux_using_assign.ps \n " \
                 "write -f verilog -o mux_using_assign.vs -hierarchy \n " \
                 "exit \n "
-        print (output)
+
         self.generateFile(output,"output/syn/syn.txt")
 
     def generatePower(self, gds,sch,pwr,defi):
         output =" power_grid -lef "+ self.lef + " -gds "+ gds + " -sch "+sch  + \
                 " -dotlib "+ self.lib + " -vdd "+pwr + " -sdc " + self.sdc + " -def " +defi + "\n"
-        print(output)
         self.generateFile(output,"output/pwr/IR/EM/pwr.txt")
 
 

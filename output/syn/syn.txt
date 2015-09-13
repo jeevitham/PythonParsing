@@ -1,0 +1,10 @@
+include   /ee/setup/synopsys/synopsys_setup_ASIC018.inc 
+read -f verilog mux_using_assign.v 
+ current_design = mux_using_assign 
+ link 
+ compile 
+ create_schematic 
+ plot -output mux_using_assign.ps 
+ write -f verilog -o mux_using_assign.vs -hierarchy 
+ exit 
+ 

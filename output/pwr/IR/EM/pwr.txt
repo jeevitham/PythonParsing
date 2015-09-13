@@ -1,0 +1,1 @@
+ power_grid -lef  /A/B/C/umc/45nm/physical/tech.lef /A/B/C/umc/45nm/physical/macro.lef -gds layout_full_path -sch sch_full_path -dotlib  /D/E/F/umc/45nm/fast/corner.lib /D/E/F/umc/45nm/fast/stdcell.lib /D/E/F/umc/45nm/fast/io.lib -vdd power_value -sdc  /D/E/F/umc/45nm/fast/timing/tapeout.sdc -def DEF_full_path
